@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled6.ipynb",
+      "provenance": [],
+      "mount_file_id": "1W7Yt063jdvrVgcPGc-KE1EI6wDuJabng",
+      "authorship_tag": "ABX9TyO9c1HRCMa2N5EOA0m1wHCA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/LarryGaughran/CourseProject/blob/New-Branch/Useful_Python_Codeipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "id": "MkxZG9IDVmu6"
+      },
+      "outputs": [],
+      "source": [
+        "larry = (\"/content/drive/MyDrive/cars.xls\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np # mathematical module\n",
+        "import pandas as pd # Work with dataframes. Work with data, clean data get rid of columns \n",
+        "import matplotlib.pyplot as plt # Data visualisation. Graphs etc.. \n",
+        "import tensorflow as tf   # AI and machine learning\n",
+        "from tensorflow import keras # An easier framework than tensorflow to work with machine learning\n",
+        "#import scikit as Sc  Not spelt right. Looks like it's this that I could use. scikit-learn. Check this website"
+      ],
+      "metadata": {
+        "id": "3P31HUA3WGqf"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#larry = pd.read_csv(\"/content/drive/MyDrive/cars.xls\")\n",
+        "print(larry)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nc5RqEClXf63",
+        "outputId": "774a72fd-da6f-4929-ba6e-b04bfd23631c"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/drive/MyDrive/cars.xls\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
